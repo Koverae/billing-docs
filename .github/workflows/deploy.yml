@@ -33,4 +33,4 @@ jobs:
 
     - name: Deploy to CPanel
       run: |
-        scp -r build/* c2029386c@developer.koverae.com:/home/c2029386c/public_html/developer/billing
+        scp -r build/* c2029386c@koverae.com:/home/c2029386c/public_html/developer/billing
